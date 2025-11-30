@@ -14,6 +14,11 @@ This repository contains beginner-friendly projects that demonstrate Monte Carlo
 - Script: `src/MC_radioactive_decay.py`
 - Result: Plot of simulated decay vs theoretical curve.
 
+### 3.Computing the value of one variable integrals
+- Description: Calculates the integral of a function in a defined interval, calculating the relative error.
+- Script: `src/MC_integrals.py`
+- Result: Plot of simulated and exact curve.
+
 ### Future Projects
 - More Monte Carlo simulations in science and mathematics
 - Applications in physics, chemistry, and data analysis
