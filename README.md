@@ -55,6 +55,14 @@ This repository contains beginner-friendly projects that demonstrate Monte Carlo
 - Script: `src/MC_neutrons_in_a_reactor.py`
 - Result: Motion of a neutron up to it goes to a neutron absorber
 
+### 9. Basic simulation of a nuclear reactor in 2D
+
+- Description: Improvement of the script “MC_neutrons_in_a_reactor.py”, where the number of neutron sources (nuclear fuel), absorbers (blue boxes), and neutron detectors (green boxes) can be arranged in different positions, including multiple instances of each.
+  The rules applied in this reactor are the same as in the “MC_neutrons_in_a_reactor.py” project.
+  So far, neutron energies and energy losses—such as the reduction of energy of fast neutrons that cause fission—have not been considered. Other variables, such as cross sections or the energy distribution of neutrons, are also not included.
+- Script: `src/MC_2D_nuclear_reactor.py`
+- Result: Simulation of a basic nuclear reactor.
+
 ### Future Projects
 
 - More Monte Carlo simulations in science and mathematics
